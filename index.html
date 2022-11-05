@@ -32,6 +32,22 @@
         >
           Get Started
         </a>
+        <!-- Hanburger icon-->
+        <button
+          id='"menu-btn'
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute felx-col items0-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center"
+        ></div>
       </div>
     </nav>
     <!-- HYero section -->
@@ -244,5 +260,101 @@
         </div>
       </div>
     </section>
+    <!-- Call to action section -->
+    <section id="cta" class="bg-brightRed">
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+      >
+        <h2
+          class="text-5xl font-blod leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+        >
+          Simplify how your team works today
+        </h2>
+        <div>
+          <a
+            href="#"
+            class="p-3 px-10 pt-4 text-brightRed bg-white shadow-2xl rounded-full baseline hover:bg-gray-300"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- footer 
+    -->
+    <footer class="bg-veryDarkBlue">
+      <!-- felx container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- logo social container  -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0.md:items-start"
+        >
+          <div
+            class="mx-auto text-white my-6 text-center text-whitre md:hidden"
+          >
+            Copyright &copy; 2022,All Rights Reserved
+          </div>
+
+          <!-- Logo -->
+          <div>
+            <img src="img/logo-white.svg" alt=" footer logo" />
+          </div>
+          <div class="flex justify-center space-x-4">
+            <a href="#">
+              <img src="img/icon-facebook.svg" alt="fb-icon" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="img/icon-youtube.svg" alt="fb-icon" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="img/icon-twitter.svg" alt="fb-icon" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="img/icon-instagram.svg" alt="fb-icon" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="img/icon-pinterest.svg" alt="fb-icon" class="h-8" />
+            </a>
+          </div>
+        </div>
+        <!-- Footer list container -->
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Home</a>
+            <a href="#" class="hover:text-brightRed">Pricing</a>
+            <a href="#" class="hover:text-brightRed">Products</a>
+            <a href="#" class="hover:text-brightRed">About Us</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Careers</a>
+            <a href="#" class="hover:text-brightRed">Community</a>
+            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+          </div>
+        </div>
+        <!-- Icon Container-->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="email"
+                name="email"
+                id="email-input"
+                class="flex rounded-full focus:outline-none"
+                placeholder="Updated in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2022,All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
