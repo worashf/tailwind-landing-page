@@ -9,13 +9,17 @@
 - HTML5
 - Tailwind CSS
 
+  ## [Live Demo](https://worashf.github.io/tailwind-landing-page/)
+
 ### Prerequisites
 
 - Node js
 
 ## Getting Started
 
-1.
+1. clone the repo
+2. Open by using VS Code
+3. Open index.html by live server
 
 ## Authors
 
