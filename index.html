@@ -18,7 +18,7 @@
         </div>
         <!-- Menu items -->
 
-        <div class="hidden md:flex space-x-6">
+        <div class="hidden space-x-6 md:flex">
           <a href='"#' class="hover:text-darkGrayishBlue">Pricing</a>
           <a href='"#' class="hover:text-darkGrayishBlue">Product</a>
           <a href='"#' class="hover:text-darkGrayishBlue">About Us</a>
@@ -38,7 +38,79 @@
     <section id='"hero'>
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 mt-10 mx-auto space-y-0 md:space-y-0"
-      ></div>
+      >
+        <!-- left item --->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            Bring everyone together to build better products
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeeping the larger team goals in view
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href='"#'
+              class="p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+            >
+              Get Started</a
+            >
+          </div>
+        </div>
+        <!-- Image -->
+        <div>
+          <img src="img/illustration-intro.svg" alr="hero image" />
+        </div>
+      </div>
+      <!-- Features section  -->
+      <section id="features">
+        <div
+          class="container felx felx-col px-4 mx-auto space-y-12 md:spce-y-0 md:flex-row"
+        >
+          <div class="flex flex-col space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-4xl font-blod text-center">
+              What's different about Manage?
+            </h2>
+
+            <p
+              class="max-w-sm text-center text-darkGrayishBlue md:md:text-left"
+            >
+              Manage provides all the functionality your team needs, without the
+              complexity. Our software is tailor-made for modern digital product
+              teams.
+            </p>
+          </div>
+
+          <!-- Numbered List -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <!-- list num one-->
+            <div
+              class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            >
+              <!-- lsit one heading-->
+              <div class="rounded-full gb-brightRedSupLight md:bg-transparent">
+                <div class="flex spce-x-2 items-center">
+                  <div
+                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  >
+                    01
+                  </div>
+                  <h3 class="text-base font-bold md:mb-4">
+                    Track company-wide progress
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">
+                  Track company-wide progress
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </body>
 </html>
